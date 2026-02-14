@@ -2,8 +2,10 @@
   "dependencies": {
     "@turf/boolean-point-in-polygon": "^7.3.4",
     "@turf/helpers": "^7.3.4",
+    "@turf/turf": "^7.3.4",
     "cors": "^2.8.6",
     "express": "^5.2.1",
+    "geotiff": "^3.0.3",
     "point-in-polygon": "^1.1.0"
   },
   "name": "backend",
@@ -11,7 +13,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node src/server.js"
   },
   "keywords": [],
   "author": "",

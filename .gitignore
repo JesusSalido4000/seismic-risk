@@ -1,26 +1,22 @@
 # Node
 node_modules/
-
-# Logs
-*.log
+npm-debug.log*
 
 # Env
 .env
-
-# IDE
-.vscode/
 
 # OS
 .DS_Store
 Thumbs.db
 
-# Build
-dist/
-build/
+# VSCode
+.vscode/
 
-# Temp
-*.swp
+# GIS temporales
+*.aux.xml
+*.ovr
+*.tfw
 
-# Data (large)
-data/*.geojson
-data/*.tif
+# Logs
+logs/
+*.log
