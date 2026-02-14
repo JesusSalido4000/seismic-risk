@@ -20,3 +20,7 @@ build/
 
 # Temp
 *.swp
+
+# Data (large)
+data/*.geojson
+data/*.tif
